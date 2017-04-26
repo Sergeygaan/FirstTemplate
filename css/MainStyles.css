@@ -1,0 +1,107 @@
+.LeftBlock {
+  width: 40%;
+  height: 40%;
+  float: left;
+}
+.RightBlock {
+  width: 60%;
+  height: 60%;
+  float: right;
+}
+.Logo {
+  width: 50%;
+}
+.TextLogo {
+  width: 100%;
+}
+.ImageLogo {
+  display: inline-block;
+  margin: 0.5em;
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 0.2em solid #3d6cb0;
+}
+.ImageCircle {
+  width: 200px;
+  height: 200px;
+  background: #3d6cb0;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 18px;
+}
+.TextLogo p {
+  text-align: center;
+  margin: 0;
+}
+p.Name {
+  font-size: 35px;
+}
+p.SurName {
+  font-size: 40px;
+  font-weight: bold;
+}
+p.GraphicDesigner {
+  font-size: 20px;
+}
+.software-column {
+  columns: 2;
+  column-width: 550px;
+}
+.software-column_points {
+  display: inline-block;
+  height: 45px;
+  background-color: #e6e6e6;
+  width: 555px;
+}
+.software-column_points_colored_504 {
+  display: inline-block;
+  height: 45px;
+  background-color: #3d6cb0;
+  width: 504px;
+}
+.software-column_points_colored_390 {
+  display: inline-block;
+  height: 45px;
+  background-color: #3d6cb0;
+  width: 390px;
+}
+.software-column_points_colored_311 {
+  display: inline-block;
+  height: 45px;
+  background-color: #3d6cb0;
+  width: 311px;
+}
+.software-column_points_colored_458 {
+  display: inline-block;
+  height: 45px;
+  background-color: #3d6cb0;
+  width: 458px;
+}
+.software-column_points_colored_342 {
+  display: inline-block;
+  height: 45px;
+  background-color: #3d6cb0;
+  width: 342px;
+}
+.WorkingProfile {
+  width: 50%;
+}
+.ProfileDelimiter {
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+}
+span:after {
+  display: inline-block;
+  content: '';
+  height: 1px;
+  width: 100%;
+  position: relative;
+  vertical-align: middle;
+  background: #000;
+  margin-left: 10px;
+}
