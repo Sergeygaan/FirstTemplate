@@ -1,5 +1,3 @@
-.WorkingProfile
-  width 50%
 
 .ProfileDelimiter
   vertical-align: middle
@@ -7,11 +5,23 @@
   overflow: hidden
 
 span:after
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: 6px;
+  width: 100%;
+  background: #3d6cb0;
+  margin-right: -100%;
+  border: solid #fff;
+  border-width: 0 10px;
+
+.ImageIcon
   display inline-block
-  content ''
-  height 1px
-  width 100%
-  position relative
+  content ""
+  width 60px
+  height 60px
   vertical-align middle
-  background black
-  margin-left 10px
+  margin-right 5px
+  background-size cover
+  background-origin border-box;

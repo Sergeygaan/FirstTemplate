@@ -61,7 +61,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -90,12 +90,6 @@
 
 /***/ },
 /* 4 */
-/***/ function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 5 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -215,7 +209,7 @@ function fromByteArray(uint8) {
 }
 
 /***/ },
-/* 6 */
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -229,9 +223,9 @@ function fromByteArray(uint8) {
 
 'use strict';
 
-var base64 = __webpack_require__(5);
-var ieee754 = __webpack_require__(7);
-var isArray = __webpack_require__(8);
+var base64 = __webpack_require__(4);
+var ieee754 = __webpack_require__(6);
+var isArray = __webpack_require__(7);
 
 exports.Buffer = Buffer;
 exports.SlowBuffer = SlowBuffer;
@@ -1956,10 +1950,10 @@ function blitBuffer(src, dst, offset, length) {
 function isnan(val) {
   return val !== val; // eslint-disable-line no-self-compare
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(6).Buffer, __webpack_require__(9)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5).Buffer, __webpack_require__(8)))
 
 /***/ },
-/* 7 */
+/* 6 */
 /***/ function(module, exports) {
 
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -2048,7 +2042,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 };
 
 /***/ },
-/* 8 */
+/* 7 */
 /***/ function(module, exports) {
 
 var toString = {}.toString;
@@ -2058,7 +2052,7 @@ module.exports = Array.isArray || function (arr) {
 };
 
 /***/ },
-/* 9 */
+/* 8 */
 /***/ function(module, exports) {
 
 var g;
@@ -2083,24 +2077,21 @@ try {
 module.exports = g;
 
 /***/ },
-/* 10 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_main_styl__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_main_styl__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_main_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__css_main_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_Logo_styl__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_Logo_styl__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_Logo_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__css_Logo_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__css_Software_styl__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__css_Software_styl__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__css_Software_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__css_Software_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_Delimiter_styl__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_Delimiter_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__css_Delimiter_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__css_Profile_styl__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__css_Profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__css_Profile_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_Profile_styl__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_Profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__css_Profile_styl__);
 /**
  * Created by Sergey on 21.04.2017.
  */
-
 
 
 

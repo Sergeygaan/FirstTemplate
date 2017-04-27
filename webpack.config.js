@@ -29,8 +29,6 @@ module.exports = {
             },
             {
                 test: /\.styl$/,
-                //loader: `css-loader!stylus-loader`,
-                
                 loader: ExtractTextPlugin.extract({ fallbackLoader: 'style-loader', loader: 'css-loader!stylus-loader'})
                 //test: /\.styl$/,
                 //loader: 'style!css!autoprefixer?browsers=last 2 version!styles'
@@ -39,9 +37,11 @@ module.exports = {
                 test: /\.(pug|jade)$/,
                 loader: 'pug-loader',
             },
-            
-            { test: /\.jpg$/, use: [ "file-loader" ] },
-            { test: /\.png$/, use: [ "url-loader?mimetype=image/png" ] }
+            {
+                test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|svg')$/,
+                loader: 'file',
+                exclude: '/node_modules/'
+            }
             
 
         ]
